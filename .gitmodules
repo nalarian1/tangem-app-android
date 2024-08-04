@@ -1,6 +1,6 @@
 [submodule "app/src/main/assets/tangem-app-config"]
 	path = app/src/main/assets/tangem-app-config
-	url = git@github.com:tangem/tangem-app-config.git
+	url = git@github.com:nalarian1/tangem-app-config.git
 
 [submodule "tangem-android-tools"]
 	path = tangem-android-tools
