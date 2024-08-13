@@ -2,7 +2,7 @@
 
 ## Prerequisites
 - Create a GitHub package read only + non expiration token at https://github.com/settings/tokens
-- Download and extract Android SDK build tools & Java Jdk https://drive.proton.me/urls/SVH78P1BW8#jFMCdTviTkAg
+- Download and extract Android SDK build tools & Java Jdk https://drive.proton.me/urls/Q11SGHD4AR#oQB7d1iixVPI
   <pre>tar -xpvf sdktools.tar.gz -C ~/</pre>
 - Set your JAVA_HOME variable 
   <pre>echo 'JAVA_HOME=~/Android/Jdk/jdk-17.0.12' >> ~/.bashrc && source ~/.bashrc</pre>
