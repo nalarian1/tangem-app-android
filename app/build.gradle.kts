@@ -10,6 +10,10 @@ plugins {
 }
 
 android {
+    defaultConfig {
+        versionCode = 997
+        versionName = "5.13.1"
+}
     namespace = "com.tangem.wallet"
     testOptions {
         animationsDisabled = true
@@ -19,6 +23,25 @@ android {
             useLegacyPackaging = true
         }
     }
+    signingConfigs {
+      create("release") {
+          if (findProperty("STORE_KEY") != null) {
+              storeFile = file(findProperty("STORE_KEY") as String)
+              storePassword = findProperty("STORE_PASSWORD") as String?
+              keyAlias = findProperty("STORE_KEY_ALIAS") as String?
+              keyPassword = findProperty("STORE_PASSWORD") as String?
+          }
+      }
+  }
+  buildTypes {
+    release {
+      isMinifyEnabled = false
+      proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+      if (findProperty("STORE_KEY") != null) {
+        signingConfig = signingConfigs.getByName("release")
+      }
+    }
+  }
 }
 
 configurations.all {
