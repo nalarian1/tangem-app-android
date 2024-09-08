@@ -217,7 +217,6 @@
   <string name="express_choose_providers_subtitle">Tangem propose des échanges de jetons via des fournisseurs tiers selon les conditions de chaque fournisseur</string>
   <string name="express_choose_providers_title">Choisissez un fournisseur</string>
   <string name="express_error_code">Une erreur s\'est produite. Code : %s</string>
-  <string name="express_error_provider_unavailable">Oups! L\'échange de la paire sélectionnée via le fournisseur choisi est temporairement indisponible. Veuillez réessayer plus tard. (Code : %s)</string>
   <string name="express_error_swap_pair_unavailable">Le fournisseur sélectionné n\'est pas disponible pour le moment. Veuillez réessayer plus tard. (Code : %s)</string>
   <string name="express_error_swap_unavailable">Les échanges ne sont pas disponibles pour le moment. Veuillez réessayer plus tard. (Code : %s)</string>
   <string name="express_estimated_amount">Montant estimé</string>
@@ -762,7 +761,8 @@
   <string name="warning_express_not_enough_fee_for_token_tx_description">Pour effectuer une transaction, vous devez déposer %1$s %2$s</string>
   <string name="warning_express_not_enough_fee_for_token_tx_title">Impossible de couvrir %s frais</string>
   <string name="warning_express_notification_invalid_reserve_amount_title">Le montant à recevoir doit être d\'au moins %s</string>
-  <string name="warning_express_pair_unavailable_message">Cela peut se produire car le fournisseur n\'est actuellement pas en mesure d\'échanger la paire que vous avez sélectionnée. Veuillez patienter un instant et réessayer. (Code %@)</string>
+  <string name="warning_express_pair_unavailable_message">Cela peut se produire car le fournisseur n\'est actuellement pas en mesure d\'échanger la paire que vous avez sélectionnée. Veuillez patienter un instant et réessayer. (Code %s)</string>
+  <string name="warning_express_pair_unavailable_title">La paire sélectionnée est temporairement indisponible</string>
   <string name="warning_express_refresh_required_title">Service temporairement indisponible</string>
   <string name="warning_express_too_maximum_amount_title">Le nombre de jetons à échanger ne doit pas dépasser %s</string>
   <string name="warning_express_too_minimal_amount_title">Le montant à échanger doit être d\'au moins %s</string>
