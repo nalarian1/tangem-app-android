@@ -47,18 +47,20 @@ internal sealed class StakingAnalyticsEvents(
         params = mapOf(
             AnalyticsParam.TOKEN_PARAM to token,
             "Validator" to validator,
-            "Action" to action.name,
+            "Action" to action.asAnalyticName,
         ),
     )
 
     data class StakeInProgressScreenOpened(
         val validator: String,
         val token: String,
+        val action: StakingActionType,
     ) : StakingAnalyticsEvents(
         event = "Stake In Progress Screen Opened",
         params = mapOf(
             AnalyticsParam.TOKEN_PARAM to token,
             "Validator" to validator,
+            "Action" to action.asAnalyticName,
         ),
     )
 
@@ -98,6 +100,17 @@ internal sealed class StakingAnalyticsEvents(
         ),
     )
 
+    data class ValidatorChosen(
+        val token: String,
+        val validator: String,
+    ) : StakingAnalyticsEvents(
+        event = "Validator Chosen",
+        params = mapOf(
+            AnalyticsParam.TOKEN_PARAM to token,
+            "Validator" to validator,
+        ),
+    )
+
     data class ButtonValidator(
         val source: StakeScreenSource,
         val token: String,
@@ -119,11 +132,11 @@ internal sealed class StakingAnalyticsEvents(
     )
 
     data class ButtonAction(
-        val action: String,
+        val action: StakingActionType,
         val token: String,
         val validator: String,
     ) : StakingAnalyticsEvents(
-        event = "Button - $action",
+        event = "Button - ${action.asAnalyticName}",
         params = mapOf(
             AnalyticsParam.TOKEN_PARAM to token,
             "Validator" to validator,
@@ -136,9 +149,13 @@ internal sealed class StakingAnalyticsEvents(
 
     data class StakingError(
         val token: String,
+        val errorType: String,
     ) : StakingAnalyticsEvents(
         event = "Errors",
-        params = mapOf(AnalyticsParam.TOKEN_PARAM to token),
+        params = mapOf(
+            AnalyticsParam.TOKEN_PARAM to token,
+            AnalyticsParam.ERROR_DESCRIPTION to errorType,
+        ),
     )
 
     data class TransactionError(
