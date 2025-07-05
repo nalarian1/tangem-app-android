@@ -1,0 +1,146 @@
+{
+	"amplitudeApiKey": "711b7361416138af9d1dadb0590389cc",
+	"appsFlyer": {
+		"appsFlyerDevKey": "BeEQ9LeAHNNqxcHPgTm5EQ",
+		"appsFlyerAppID": "1354868448"
+	},
+	"blockchairApiKeys": [
+		"B___LK9JTJEH15RVcaVvb6aK9zoQcJsC",
+		"A___TuHI0xA83jjsgemZ9SFsLOPK1CLS"
+	],
+	"blockchairAuthorizationToken": "key111qqqAAA#",
+	"blockcypherTokens": [
+		"f5419f102cbe44b7a3781af9693dae7b",
+		"9c1f206ffa6d445686f11289263ea755",
+		"b85c098c526e4cc48433e7442bd5ec82"
+	],
+    "bscQuiknodeApiKey": "19058d181be091a5d6e19c2c0a4bc16f560736b8",
+    "bscQuiknodeSubdomain": "blissful-black-card.bsc.discover.quiknode.pro",
+	"coinMarketCapKey": "bc80fcb0-af24-4db1-82a1-512519b82699",
+	"cryptoAPIsApiKey": "ddeb7920603cd638627d9cf6db3b6c10ee1d5623",
+	"getBlockApiKey": "65979ea7-c2fb-475c-a1a7-216d5d4a6e52",
+	"getBlockAccessTokens": {
+		"avalanche": {
+			"jsonRpc": "b886a79ce9d34ecda12421c446922614"
+		},
+		"ethereum": {
+			"jsonRpc": "87fe89f932374d739b46e25a57600c7e"
+		},
+		"ethereumClassic":  {
+			"jsonRpc": "6a95162cdb894fa4845363236d545571"
+		},
+		"fantom": {
+			"jsonRpc": "e1e867fd661640cca03fe643175b05ca"
+		},
+		"rsk":  {
+			"jsonRpc": "15830e15864e40db9be4b94616e9548e"
+		},
+		"bsc": {
+			"jsonRpc": "2da35eb3bd054221bcf440fc739cdaf3"
+		},
+		"polygon":  {
+			"jsonRpc": "e1a6c2c9d219461a986e3c70ff50201e"
+		},
+		"xdai": {
+			"jsonRpc": "23b8385faa104df396706f5483d09ed6"
+		},
+		"cronos":  {
+			"jsonRpc": "9d8c6e5d46b341c28378bd9d8386319d"
+		},
+		"solana":  {
+			"jsonRpc": "7ff719e1af0c4950bfb6a7873bdef649"
+		},
+		"ton":  {
+			"jsonRpc": "2db97574e2ed4940a802a2967954c9af"
+		},
+		"tron":  {
+			"rest": "a532535c7c6f4f0e9506cf0d6f28f407"
+		},
+		"cosmos-hub" : {
+			"rest" :"6953e82fe1be432ab5866227e29ad5b1"
+		},
+		"near" : {
+			"jsonRpc" : "eef212374a0c4838aff4e9e4a16d28f4"
+		},
+		"xrp": {
+			"jsonRpc": "552251e150a14ef98aae36fc7a1ec11e"
+		},
+		"cardano": {
+			"rosetta": "01b034e348cd4422879d979091918f22"
+		},
+		"dogecoin": {
+			"blockBookRest": "905be1bfdace438083a559f5ef3f009b",
+			"jsonRpc": "9c395083790347358d74c2d0dded853a"
+		},
+		"litecoin": {
+			"blockBookRest": "d3b89d990088420bb9f79cf2d1831170",
+			"jsonRpc": "56738ce0476a42c294a5ba165da2d7e1"
+		},
+		"dash": {
+			"blockBookRest": "f1955481576e435bba8fd3d73f7509fc",
+			"jsonRpc": "13a288b411444073a0eacb4d6fa14c40"
+		},
+		"bitcoin": {
+			"blockBookRest": "4a8108f3926e4d65bfaee9d9a5428d7f",
+			"jsonRpc": "d2b5ac43554240c78e27b9eb17613599"
+		},
+		"aptos": {
+			"rest": "56ecd00ebc0c456e91dddeea95f451ea"
+		},
+		"algorand": {
+			"rest": "2167d42722824a7abbebd552466a7b33"
+		},
+		"polygon-zkevm": {
+			"jsonRpc": "7ea397eefa16403ebb68700ecb0e13cd"
+		},
+		"zksync": {
+			"jsonRpc": "b013a09f3f5840c8b84069a2efbab4df"
+		},
+		"base": {
+			"jsonRpc": "30fda1e4107f44c2ba29c359270d43bd"
+		},
+		"blast": {
+			"jsonRpc": "2c823423a8e347aba47fe9a6fcc19994"
+		},
+		"filecoin": {
+			"jsonRpc": "6308d15e88544c40a0559ff2dcd19a50"
+		}
+	},
+	"kaspaSecondaryApiUrl": "https://api.kaspacalc.net/",
+	"infuraProjectId": "613a0b14833145968b1f656240c7d245",
+	"mercuryoSecret": "s9L6X5tJCVjkvv2p",
+	"mercuryoWidgetId": "86041635-ab5c-4414-a9f9-60be103a5bcc",
+	"moonPayApiKey": "pk_live_YTDl4Uei4411FXLAFe2rn8R2qWSiQcm",
+	"moonPayApiSecretKey": "sk_live_7wMjoyGTGAB3i1suQHszCWRRqJBRPsQF",
+	"nowNodesApiKey": "8742138d-7288-48c3-a6ec-9dfb546b7bd4",
+	"tonCenterApiKey": {
+		"mainnet": "e71c478cd9400840f0cfe0e9cf9d1a5185ace2a5b148e840d27cb03bacfb1800",
+		"testnet": "ae8942b13ffa347b2e68572ef4bb33a6576952c88fafbdd9d640e097844bb5c1"
+	},
+    "quiknodeApiKey": "ca339bce7399b220aadfd1cd8901159e62e0aacb",
+    "quiknodeSubdomain": "green-fittest-lake.solana-mainnet.quiknode.pro",
+	"tronGridApiKey": "e00cb1db-07ec-4a1c-b2f6-57f57894b6e4",
+    "tangemComAuthorization": "dGFuZ2VtOnRhbmdlbWRldjc=",
+    "sprinklr": {
+        "appID": "651d650576d1535039e28f7f_app_300157972",
+        "apiKey": "d24d632c-e0df-4eef-a931-c560f3d6e75f",
+        "environment": "PROD3"
+    },
+    "walletConnectProjectId": "98abc7b31b1a9adaba6893510f0a6624",
+	"chiaFireAcademyApiKey": "6cc55930-4406-49ac-a820-586394758472",
+	"chiaTangemApiKey": "m23PvHTAxpTjmxDDka",
+	"express": {
+		"apiKey": "351bddb5-bf96-4f56-a26b-665e1364a5cd",
+        "signVerifierPublicKey": "3056301006072a8648ce3d020106052b8104000a03420004d1b082ee7b93849b880d856eb2d63b34afa86f99dce5dfa5bdf8a9fdc01a9383d95432698ced5768952351e40a66e6b9822abdbea93ec94c282271de31d2690e"
+	},
+    "devExpress": {
+        "apiKey": "244fe471-3d18-402b-af0a-013ac2fe126c",
+        "signVerifierPublicKey": "3056301006072a8648ce3d020106052b8104000a03420004e471289bdace602463531f853b64366f07705da9de255d73940611a16bc0fec63ed155a1f426d1ed93d25c8796f077a5166e91d24c3064b3ea3ff64a8a6b0f61"
+    },
+    "hederaArkhiaKey": "d2AN2019G4eN91Q82zdbbNs53f0GaAa4",
+    "polygonScanApiKey": "I8IZUANNIA1JPV45UU16ZJIHYN1HCSXR1H",
+    "koinosProApiKey": "U1w9hCbojMm8BNJddMoEE3OCyn5lVjWB",
+    "stakeKitApiKey": "7c88cfa1-9146-48e0-9b58-eeebefe95585",
+    "bittensorDwellirKey": "2429cd44-0984-471c-845d-9b0985050ebe",
+    "bittensorOnfinalityKey": "65009fc1-0eac-4200-a62e-0023d5d266ba"
+}

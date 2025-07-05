@@ -1,0 +1,13 @@
+{
+    "testnet": {
+        "paymentAccountRegistry": "0xd0f9a98053a8a81aa11d477d3d87e72b3bdaa24d",
+        "bridgeProcessor": "0xad607d634468f9449b3bfe6dac479f8c07e86684"
+    },
+    "mainnet": {
+        "paymentAccountRegistry": "0xa7299243262087462a040c743ab6c8649ebcc1fe",
+        "bridgeProcessor": "0xf4d1f810c567e5202eb514d5c71359a2275497f6"
+    },
+    "txHistoryAPIAdditionalHeaders": {
+        "x-asn": "66215"
+    }
+}
