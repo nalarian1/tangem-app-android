@@ -37,6 +37,14 @@ android {
         generateLocaleConfig = true
     }
     signingConfigs {
+      create("release") {
+          if (findProperty("STORE_KEY") != null) {
+              storeFile = file(findProperty("STORE_KEY") as String)
+              storePassword = findProperty("STORE_PASSWORD") as String?
+              keyAlias = findProperty("STORE_KEY_ALIAS") as String?
+              keyPassword = findProperty("STORE_PASSWORD") as String?
+          }
+      }
         getByName("debug") {
             val keystorePath = "src/main/assets/tangem-app-config/android/keystore/debug_keystore"
             val propertiesPath = "src/main/assets/tangem-app-config/android/keystore/debug_keystore.properties"
@@ -47,12 +55,22 @@ android {
                 .use { keystoreProperties.load(it) }
 
             storeFile = file(keystorePath)
-            storePassword = keystoreProperties["store_password"] as String
-            keyAlias = keystoreProperties["key_alias"] as String
-            keyPassword = keystoreProperties["key_password"] as String
+            storePassword = keystoreProperties["store_password"] as String?
+            keyAlias = keystoreProperties["key_alias"] as String?
+            keyPassword = keystoreProperties["key_password"] as String?
         }
     }
 
+  buildTypes {
+    release {
+      isMinifyEnabled = false
+      proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+      if (findProperty("STORE_KEY") != null) {
+        signingConfig = signingConfigs.getByName("release")
+      }
+    }
+  }
+	
 }
 
 configurations.all {
